@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Brew</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-KZMBQSPS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GTM-KZMBQSPS');
+</script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="Index.html"><img src="Assets/Horizon.png" alt="" height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#novidades">Novidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#capitulos">Capítulos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#personagens">Personagens</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#redes-sociais">Fale Comigo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="p-5 text-center text-white bg-primary">
+    <img src="Assets/logo.png" alt="" height="200px">
+    <h1 class="display-4 animate__animated animate__fadeInDown">Bem-vindo ao Black Brew</h1>
+    <p class="lead animate__animated animate__fadeInUp">Baixe novos capitulos, descubra a história, os personagens e as sombras desse mundo misterioso</p>
+  </header>
+
+  <section id="novidades" class="container my-5">
+    <h2 class="mb-4">📰 Novidades</h2>
+    <div id="novidades-lista">
+      <div class="alert alert-info">
+        📢 Novo capítulo "Akeen e Golias" já está disponível!
+      </div>
+      <div class="alert alert-warning">
+        🎨 Galeria atualizada com artes conceituais da Hillary, Liath e Akeen.
+      </div>
+    </div>
+  </section>
+
+  <section id="capitulos" class="container my-5">
+    <h2 class="mb-4">📖 Capítulos Lançados</h2>
+    <ul class="list-group" id="lista-capitulos">
+      <a href="capitulos/Black Brew 1.1.pdf"><li class="list-group-item">Capítulo 1: Akeen e Golias</li></a>
+      <li class="list-group-item"> Em breve: Capítulo 2: Set e Osiris</li>
+    </ul>
+  </section>
+
+  <section id="personagens" class="container my-5">
+    <h2 class="mb-4">👥 Personagens</h2>
+    <div id="carouselPersonagens" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Akeen</h5>
+              <p class="card-text">Faz missões, lava pratos e evita emoções profundas desde sempre. As vezes tudo no mesmo turno.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Lázaro</h5>
+              <p class="card-text">Espião sedutor e brincalhão com um passado difícil e habilidades de infiltração excepcionais.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Chef</h5>
+              <p class="card-text">O chefe misterioso do restaurante Black Brew, que age como mentor e distribuidor de missões secretas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPersonagens" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPersonagens" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+      <br>
+        <div class="Centralizar">
+            <a href="Personagens.html"><button class="botaozinho">Mais personagens</button></a>
+        </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="container my-5">
+    <h2 class="mb-4">🖼️ Galeria de Imagens</h2>
+    <div class="row" id="galeria-imagens">
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 4.jpg" class="img-fluid rounded shadow" alt="Concept da Hillary">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 1.png" class="img-fluid rounded shadow" alt="Hillary colorida por IA">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 2.png" class="img-fluid rounded shadow" alt="concept da Hillary colorida do Ia">
+      </div>
+    </div>
+  <div class="Centralizar">
+      <a href="Galeria.html"><button class="botaozinho">Mais Imagens</button></a>
+  </div>
+  </section>
+
+   <section id="curiosidades" class="container my-5">
+    <h2 class="mb-4">👥 Curiosidades</h2>
+    <div id="carouselCuriosidades" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Por quê Akeen</h5>
+              <p class="card-text">O nome Akeen vem de Akin, que, resumindo,tem origem iôruba, que significa heroi, guerreiro, valente, etc., mas eu só escolhi por que tem uma boa fonetica</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Algo sobre a Hillary</h5>
+              <p class="card-text">Algo engraçado sobre ela, ela ja teve três nomes antes desse. O primeiro, eu ja nem lembro, mas era um nome brega tipo Healer Girl, mas eu mudei para Jamila que tinha origem africana e um significado, mas eu coloquei Hillary por conta de sua habilidade de cura, fiz um trocadilho com a palavra "healer".</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Nome das Cidades</h5>
+              <p class="card-text">De forma resumida, a historia na passa em nenhum pais existente no mundo real, assim não preciso me limitar, assim posso colocar algo egipcio se eu quiser, e os nomes de cidades são todos inventados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Por quê eu escrevo essa historia</h5>
+              <p class="card-text">Eu sou um aspirante a GameDev, mas os jogos criados por mim nunca iam pra frente, por falta de direção, entao pensei em escrever uma historia para o jogo que irei fazer, mas depois me perguntei "porquê eu não publico essa historia?"</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Meu Personagem favorito</h5>
+              <p class="card-text">Bom, meu personagem favorito, ou melhor, minha, é a Hillary, eu gosto de escrever as cenas em que ela aparece, por isso não a coloco em combate, quero protege la o maximo possivel. E não, não me confundam com o criador de Rent a Gilfriend.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Porquê a Hillary odeia Lazaro</h5>
+              <p class="card-text">É segredo, por enquanto, planejo contar mais para frente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Qual personagem é mais parecido comigo?</h5>
+              <p class="card-text">Essa é facil, todos os protagonistas. Eu coloquei um traço meu em cada um deles, assim fica mais facil humanizar eles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Por quê eu nao faço uma HQ disso?</h5>
+              <p class="card-text">Eu odeio desenhar. Mas sim, sou eu quem faz as artes, por agora.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+              <h5 class="card-title">Eu escrevo ouvindo musica!</h5>
+              <p class="card-text">O silencio é bom, mas ouvir algo enquanto escrevo me ajuda a encontrar um bom "Feeling" para a cena, e geralmente eu escuto musica geek, para ser mais exato eu escuto novatroop, eles me fazem sentir umas coisas estranhas, la ele.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPersonagens" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPersonagens" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="comentarios" class="container my-5">
+    <h2 class="mb-4">Comentarios</h2>
+    <div class="commentbox"></div>
+  </section>
+
+<section id="redes-sociais" class="bg-dark text-light py-4">
+  <div class="container text-center">
+    <h4 class="mb-3">🌐 Siga nas redes</h4>
+    <div class="d-flex justify-content-center gap-4">
+      <a href="https://web.facebook.com/norton.rungo" target="_blank" class="text-light fs-4">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://x.com/NortonRungo" target="_blank" class="text-light fs-4">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/___norton____/" target="_blank" class="text-light fs-4">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@Norton258" target="_blank" class="text-light fs-4">
+        <i class="bi bi-youtube"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="text-center p-3 bg-dark text-light">
+    <small>© 2025 Ronin Studios | Todos os direitos reservados</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+  <script src="https://unpkg.com/commentbox.io/dist/commentbox.min.js"></script>
+  <script> commentBox('5690882560884736-proj')</script>
+  <script src="script.js"></script>
+</html>

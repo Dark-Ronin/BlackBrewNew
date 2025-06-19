@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="Index.html"><img src="Assets/Horizon.png" alt="" height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#novidades">Novidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#personagens">Personagens</a></li>
+          <li class="nav-item"><a class="nav-link" href="#capitulos">Capítulos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <header class="p-5 text-center text-white bg-primary">
+    <h1 class="display-4 animate__animated animate__fadeInDown">Bem-vindo a Galeria Black Brew</h1>
+    <p class="lead animate__animated animate__fadeInUp">Neste cantinho podera ver alguns rabiscos e artes conceituais</p>
+  </header>
+
+  <section id="novidades" class="container my-5">
+    <h2 class="mb-4">📰 Novidades</h2>
+    <div id="novidades-lista">
+      <div class="alert alert-info">
+        📢 Novo capítulo "A Casa em Nhamtuto" já está disponível!
+      </div>
+      <div class="alert alert-warning">
+        🎨 Galeria atualizada com artes conceituais da Hillary.
+      </div>
+    </div>
+  </section>
+  
+  <section id="galeria" class="container my-5">
+    <h2 class="mb-4">🖼️ Galeria de Imagens</h2>
+    <div class="row" id="galeria-imagens">
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 4.jpg" class="img-fluid rounded shadow" alt="Concept da Hillary">
+        <h3>Arte conceitual da Hillary</h3>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 1.png" class="img-fluid rounded shadow" alt="Hillary colorida por IA">
+        <h3>Arte conceitual da Hillary colorida por IA</h3>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Hillary 2.png" class="img-fluid rounded shadow" alt="concept da Hillary colorida do Ia">
+        <h3>Arte conceitual da Hillary colorida por IA</h3>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Akeen 2.jpg" class="img-fluid rounded shadow" alt="concept da Hillary colorida do Ia">
+        <h3>Arte conceitual do Akeen</h3>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Akeen concept.png" class="img-fluid rounded shadow" alt="concept da Hillary colorida do Ia">
+        <h3>Arte conceitual do Akeen</h3>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="Assets/Liath.png" class="img-fluid rounded shadow" alt="concept da Hillary colorida do Ia">
+        <h3>Arte conceitual do Liath</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="capitulos" class="container my-5">
+    <h2 class="mb-4">📖 Capítulos Lançados</h2>
+    <ul class="list-group" id="lista-capitulos">
+      <a href="capitulos/Black Brew 1.1.pdf"><li class="list-group-item">Capítulo 1: Entrega em Nhamtuto</li></a>
+      <li class="list-group-item"> Em breve: Capítulo 2: Lady e King</li>
+    </ul>
+  </section>
+
+  <footer class="text-center p-3 bg-dark text-light">
+    <small>© 2025 Ronin Studios | Todos os direitos reservados</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+  <script src="script.js"></script>
+</body>
+</html>

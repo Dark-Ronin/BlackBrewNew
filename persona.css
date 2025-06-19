@@ -1,0 +1,17 @@
+    .personagem-ficha {
+      border: 2px solid #6f42c1;
+      border-radius: 1rem;
+      background-color: #1e1e2f;
+      color: white;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    .personagem-ficha h3 {
+      color: #ffc107;
+    }
+    .personagem-img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
