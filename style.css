@@ -86,7 +86,7 @@ footer {
 
 /* Área geral do commentbox */
 .commentbox {
-  background-color: #1e1e2f;
+  background-color: #cc90fd;
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
@@ -95,7 +95,7 @@ footer {
 
 /* Texto e links */
 .commentbox * {
-  color: #cc90fd !important;
+  color: #f1f1f1 !important;
   font-family: 'Segoe UI', sans-serif;
 }
 
